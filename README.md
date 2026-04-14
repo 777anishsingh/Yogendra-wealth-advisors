@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yogendra Singh Panwar — Financial Advisor Website
 
-## Getting Started
+A premium, high-performance landing page and portfolio website built for Yogendra Singh Panwar, a trusted LIC Agent and Financial Advisor based in Dehradun, Uttarakhand.
 
-First, run the development server:
+## 🚀 Features
 
+- **Premium Dark-Themed UI:** A rich aesthetic utilizing Navy, Gold, and LIC Blue with glassmorphism components.
+- **Interactive 3D Hero:** A golden rotating wireframe icosahedron with a dynamic particle field built using Three.js and React Three Fiber.
+- **Live Calculators:** Built-in dynamic Loan/EMI Calculator and LIC Premium Estimator backed by Recharts.
+- **Bilingual Interface:** Strategic use of English and Hindi for maximum local audience accessibility.
+- **Robust Lead Generation:** Contact form integrated directly into the page with validation and email delivery.
+- **Built-in SEO:** Statically generated pages with specialized LocalBusiness JSON-LD schema, perfect for search ranking.
+
+## 🛠️ Technology Stack
+
+- **Framework:** [Next.js 16 (App Router)](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Components:** [@base-ui/react](https://base-ui.com/) with extended Shadcn styling
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **3D Graphics:** [Three.js](https://threejs.org/) & [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
+- **Data Visualization:** [Recharts](https://recharts.org/)
+- **Form Handling:** [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)
+- **Email Backend:** [Nodemailer](https://nodemailer.com/)
+
+## 💻 Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository and install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Environment Variables**: To run the email functionality locally, create a `.env.local` file in the root directory and add your Gmail SMTP credentials.
+```env
+SMTP_EMAIL=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## 👨‍💻 Developed By
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed with ❤️ by [Anish Singh Butola](https://github.com/777anishsingh).
